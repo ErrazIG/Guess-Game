@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  background: red;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.link {
+  color: var(--color-text);
+  text-decoration: none;
+  position: relative;
+  transition: color var(--transition);
+}
+
+.link:hover {
+  color: var(--color-primary);
+}
