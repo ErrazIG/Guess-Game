@@ -5,12 +5,11 @@ import style from "./Navbar.module.css";
 const Navbar = () => {
   return (
     <nav className={style.navbar}>
-      <div className={style.logo}>QUIZIA</div>
+      <Link to="/" className={style.logo}>
+        QUIZIA
+      </Link>
 
       <div className={style.links}>
-        <Link to="/" className={style.link}>
-          Accueil
-        </Link>
         <Link to="/random" className={style.link}>
           Quiz Aléatoire
         </Link>

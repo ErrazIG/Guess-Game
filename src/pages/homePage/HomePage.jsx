@@ -3,7 +3,7 @@ import style from "./HomePage.module.css";
 
 const HomePage = () => {
   return (
-    <main className={style.container}>
+    <div className={style.container}>
       <h1 className={style.title}>
         Teste-toi, amuse-toi, découvre qui tu es vraiment !
       </h1>
@@ -20,7 +20,7 @@ const HomePage = () => {
           📚 Voir tous les quiz
         </Link>
       </div>
-    </main>
+    </div>
   );
 };
 

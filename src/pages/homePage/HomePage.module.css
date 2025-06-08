@@ -4,6 +4,12 @@
   padding: 0 1rem;
   text-align: center;
   color: var(--color-text);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
 }
 
 .title {
