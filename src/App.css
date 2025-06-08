@@ -1,0 +1,84 @@
+/* Reset global */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Pour éviter les scrollbars fantômes */
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Typo de base lisible */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+/* Supprime les décorations de liens */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Supprime les puces par défaut des listes */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Images responsives */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Boutons sans style par défaut */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Inputs plus propres */
+input,
+textarea,
+select {
+  font: inherit;
+  border: none;
+  outline: none;
+}
+
+:root {
+  /* Couleurs principales - mode clair */
+  --color-bg: #ffffff;
+  --color-text: #1e1e1e;
+  --color-primary: #7c3aed; /* violet */
+  --color-secondary: #fbbf24; /* jaune/orange */
+  --color-accent: #10b981; /* vert menthe */
+  --color-muted: #e5e7eb; /* gris clair */
+  --color-border: #d1d5db;
+  --radius: 12px;
+  --transition: 0.2s ease-in-out;
+}
+
+/* Mode dark activé via class .dark sur <html> ou <body> */
+.dark {
+  --color-bg: #1e1e1e;
+  --color-text: #f1f1f1;
+  --color-primary: #8b5cf6;
+  --color-secondary: #facc15;
+  --color-accent: #34d399;
+  --color-muted: #374151;
+  --color-border: #4b5563;
+}
