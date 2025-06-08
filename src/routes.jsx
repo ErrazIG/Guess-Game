@@ -1,6 +1,8 @@
 import App from "./App.jsx";
+import AllQuizPage from "./pages/allQuizPage/AllQuizPage.jsx";
 import HomePage from "./pages/homePage/HomePage.jsx";
 import NotFoundPage from "./pages/notFoundPage/NotFoundPage.jsx";
+import RandomQuizPage from "./pages/randomQuizPage/RandomQuizPage.jsx";
 
 export const routes = [
   {
